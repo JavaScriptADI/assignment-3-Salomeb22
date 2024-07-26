@@ -11,3 +11,9 @@ Write a loop that makes seven calls to console.log to output the following trian
 ###### 
 #######
 */
+
+let S = 0;
+while (S <= 20) {
+    console.log(S)
+    S + = 2
+}
