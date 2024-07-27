@@ -14,11 +14,15 @@ So if you solved it, your labor market value just went up.)
 */
 
 
-let Num = Number(prompt("what's the number"));
-if (Num % 3 === 0) {
-    console.log ("Fizz");
-} else if (Num % 5 === 0 && Num !% 3); {
-    console.log ("Buzz")
-} else if (Num % 5 === 0 && Num % 3 === 0); {
-    console.log ("FizzBuzz")
+let num = 1;
+while (num <= 100) {
+    if (!(num % 3 === 0 ) && !(num % 5 === 0))
+        console.log("FizzBuzz");
+    else if (!(num % 3 === 0))
+        console.log('Fizz');
+    else if (!(num % 5 === 0))
+        console.log('Buzz');
+    else
+    console.log(num);
+    num++;
 }
