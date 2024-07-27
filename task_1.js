@@ -11,3 +11,11 @@ Write a loop that makes seven calls to console.log to output the following trian
 ###### 
 #######
 */
+
+let S = 0;
+let hash = #;
+while (S < 7) {
+    console.log(hash);
+    hash += '#';
+    S++;
+}
